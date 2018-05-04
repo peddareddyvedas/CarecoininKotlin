@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@color/colorwhite"
+        android:id="@+id/relativeone">
+
+        <ImageView
+            android:id="@+id/img_icon"
+            android:layout_width="35dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="5dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+        <TextView
+            android:id="@+id/coinname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="7dp"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="10sp"
+            app:autoSizeMaxTextSize="100sp"
+            app:autoSizeStepGranularity="2sp"
+            android:clickable="false"
+            android:layout_marginRight="70dp"
+            android:textColor="@color/colorBlack"
+            android:focusable="false"
+            android:maxLines="1"
+            android:focusableInTouchMode="false" />
+
+        <TextView
+            android:id="@+id/addressnotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="38dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:text="adbanb"
+            android:focusableInTouchMode="false" />
+
+        <TextView
+            android:id="@+id/coindate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="55dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:text="adbanb"
+            android:focusableInTouchMode="false" />
+        <TextView
+            android:id="@+id/textVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:focusable="false"
+            android:text="adbanb"
+            android:textColor="@color/colorBlack"
+            android:focusableInTouchMode="false" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#cccccc"/>
+
+    </RelativeLayout>
+</RelativeLayout>
+
+
